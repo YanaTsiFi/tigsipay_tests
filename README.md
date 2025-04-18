@@ -62,6 +62,7 @@ allure serve build/allure-results
 - общее количество тестов
 - количество упавших
 - ссылка на Allure-отчёт
+  <img src="screenshots/telegram-report.png" alt="Telegram Report"/>
 
 ## 👤 Автор
 
