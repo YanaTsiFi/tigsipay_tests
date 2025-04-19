@@ -12,7 +12,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.Map;
 
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
 
@@ -33,14 +33,14 @@ public class TestBase {
             ));
             Configuration.browserCapabilities = capabilities;
         }
-
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
-                .screenshots(true)
-                .savePageSource(true));
     }
 
     @BeforeEach
-    void openMainPage() {
+    void setUp() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
+                .screenshots(true)
+                .savePageSource(true));
+
         open("/");
     }
 
