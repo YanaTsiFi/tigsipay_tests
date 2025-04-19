@@ -1,3 +1,5 @@
+# ![Tigsipay Logo](screenshots/logo.png)
+
 # UI Autotests for Tigsipay
 
 Проект с автотестами на Selenide для сайта [https://tigsipay.com/en](https://tigsipay.com/en)
@@ -38,14 +40,23 @@ gradle clean test -Dremote=true
 
 После прохождения тестов:
 allure serve build/allure-results
+## 🔗 Ссылки
+
+- 🛠 [Jenkins Job](https://jenkins.autotests.cloud/job/YanaTsiFi-tigsipay_jenkins/)
+- 📈 [Allure Report](https://jenkins.autotests.cloud/job/YanaTsiFi-tigsipay_jenkins/allure/)
 
 <h3>✅ Примеры тестов</h3>
 
 ### Успешный тест:
-<img src="screenshots/success.png" alt="Успешный тест"/>
+<img src="screenshots/success.png" alt="Успешный тест" width="834"/>
 
 ### Упавший тест:
-<img src="screenshots/fail.png" alt="Упавший тест"/>
+<img src="screenshots/fail.png" alt="Упавший тест" width="834"/>
+
+### 🎞 Видео прохождения теста
+[![Watch the video](screenshots/video-preview.png)](videos/test-example.mp4)
+
+
 
 Процесс реализован в Jenkins и включает:
 
@@ -53,7 +64,7 @@ allure serve build/allure-results
 - ✅ Telegram-уведомления
 
 ### Скриншот пайплайна:
-<img src="screenshots/jenkins.png" alt="Jenkins"/>
+<img src="screenshots/jenkins.png" alt="Jenkins" width="1444"/>
 
 ## 📬 Уведомления в Telegram
 
