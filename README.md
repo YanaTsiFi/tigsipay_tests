@@ -1,4 +1,4 @@
-# ![Tigsipay Logo](screenshots/logo.png)
+# ![Tigsipay Logo](media/logo.png)
 
 # UI Autotests for Tigsipay
 
@@ -48,14 +48,13 @@ allure serve build/allure-results
 <h3>✅ Примеры тестов</h3>
 
 ### Успешный тест:
-<img src="screenshots/success.png" alt="Успешный тест" width="834"/>
+<img src="media/success.png" alt="Успешный тест" width="834"/>
 
 ### Упавший тест:
-<img src="screenshots/fail.png" alt="Упавший тест" width="834"/>
+<img src="media/fail.png" alt="Упавший тест" width="834"/>
 
 ### 🎞 Видео прохождения теста
-[![Watch the video](screenshots/video-preview.png)](videos/test-example.mp4)
-
+<img src="media/test-example.gif" alt="Видео прохождения теста" width="1920"/>
 
 
 Процесс реализован в Jenkins и включает:
@@ -64,7 +63,7 @@ allure serve build/allure-results
 - ✅ Telegram-уведомления
 
 ### Скриншот пайплайна:
-<img src="screenshots/jenkins.png" alt="Jenkins" width="1444"/>
+<img src="media/jenkins.png" alt="Jenkins" width="1444"/>
 
 ## 📬 Уведомления в Telegram
 
@@ -73,14 +72,9 @@ allure serve build/allure-results
 - общее количество тестов
 - количество упавших
 - ссылка на Allure-отчёт
-  <img src="screenshots/telegram-report.png" alt="Telegram Report"/>
+  <img src="media/telegram-report.png" alt="Telegram Report"/>
 
 ## 👤 Автор
 
 Yana Tsifireva — QA Automation Engineer  
 GitHub: [@YanaTsiFi](https://github.com/YanaTsiFi)
-
-
-
-
-
