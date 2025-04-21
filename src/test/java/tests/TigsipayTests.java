@@ -2,21 +2,22 @@ package tests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import pages.MainPage;
+import pages.MainPageEnglish;
 
 import static testdata.TestData.*;
 
 public class TigsipayTests extends TestBase {
 
-    MainPage mainPage = new MainPage();
+    MainPageEnglish mainPage = new MainPageEnglish();
 
     @Test
     @DisplayName("Проверка латышского текста на главной")
-    void shouldOpenAboutPageInLatvianTest() {
+    void shouldOpenLatvianMainPageTest() {
         mainPage.openPage()
                 .switchToLatvian()
                 .checkMainHeader(LATVIAN_MAIN_TEXT);
     }
+
 
     @Test
     @DisplayName("Переход к FAQ")
